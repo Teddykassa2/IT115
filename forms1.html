@@ -10,7 +10,9 @@
 <body>
     <section>
         <h1>Username and password inputs</h1>
+        <!-- h1 for the biggest font size for the header -->
         <form action="/Teddy">
+        <!-- this is my tittle  -->
 
              <p>
                  <label for="Username">Enter A Name</label>
@@ -18,9 +20,7 @@
                  <input id="Username" type="text" placeholder="Teddy Username" name="Username">
                  <!-- input id to link what the password is going to go. type for what kind of input. placeholder for what goes in the box. name for what goes in the box. -->
 
-
-
-            </p>
+             </p>
 
              <p>
                  <label for="Password">Enter A Password</label>
@@ -32,15 +32,9 @@
 
             <button>Submit</button>
 
-
-        </form>
-
-
-
-
-
         </form>
     </section>
+
     <hr>
 
     <section>
@@ -49,49 +43,49 @@
         <!-- HeDader -->
             <form action="https://www.reddit.com/search/">
                 <!-- In the form the action will tell where the query should go -->
-
-                
-                
                  <input type="text" name="q">
                  <!-- input will choose what type of input will be written in the box in this case string or text -->
                  <button>Search Reddit</button>
                  <!-- Button will give us a button to complete the action by appending the action -->
-
-
             </form>
-
-
     </section>
 
     <section>
         <h3>Youtube Query String</h3>
             <form action="https://www.youtube.com/results?search_query=">
+                <!-- In the form action will tell where the query shoulg go -->
                 <input type="text" name="q">
+                <!-- input will determin what type of input it will be and what is accepted in the text box -->
                 <button>Search Youtube</button>
-
-
-
+                <!-- button to search for the query -->
             </form>
-
-
 
     </section>
 
     <section>
 
         <h3>Google Query String</h3>
+        <!-- h3 for a smaller hearder font size -->
             <form action="https://www.google.com/search">
+                <!-- in this form action will tell where the query should go in thos case google  -->
                 <input type="text" name="q">
+                <!-- input will determin whar type if inout and what is accepted in the text box -->
                 <button>Search Google</button>
-
+                <!-- button to search for the query  -->
             </form>
     </section>
+
     <hr>
+    <!-- hr for the horizontal line -->
+
     <section>
         <h3>Checkboxes and radio bottons</h3>
+        <!-- header -->
         <form action="/birds">
             <input type="checkbox" name="agree_tos" id="agree">
             <label for="agree">I agree to everything</label>
+            <!-- in this section I made a check box using the action and giving it wheather or not i agree -->
+            <!-- the label section gives it a label for what the check box is for -->
             <p>
                 <label for="S">Small:</label>
                 <input type="radio" name="size" id="s" value="s">
@@ -101,20 +95,83 @@
 
 
                 <label for="l">Large:</label>
-                <input type="radio" name="size" id="m" value="l"
+                <input type="radio" name="size" id="m" value="l">
+            </p>
+
+                
+
+                <p>
+                    <label for="colors">What is your favorite color</label>
+                    <!-- label for the drop of options -->
+                    
+                    <select name="colors" id="colors">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Green">Green</option>
+                    <!-- option gives us the choice of options we just have to  set the value of what we want  -->
+                    </select>
 
 
+
+
+
+                </p>
+                <!--  -->
+
+                <p>
+                    <label for="sbar">Teddy's ScrollBar</label>
+                    <!-- gave a label for my scrollbar -->
+                    <input type="range" id="sbar" min="5" max="10" name="scrollbar">
+                    <!-- set my attribute and what kind of input it is and set the max and min value of the bar -->
+                </p>
+
+                
+
+
+
+
+           
+
+            <p>
+                <label for="requests">Type in specisl requests</label>
+                <!-- Label for what my textare is for -->
+                <textarea id="requests" name="textare" rows="15" cols="15" placeholder="Type Here"></textarea>
+                <!-- id gives it what type attribute it is and rows and cols sets restriction and place holder indicates what goes in the box -->
+
+            </p>
+
+            <button>Submit</button>
+            <!-- Button to submit this form -->
+            
+        </form>
+        
+    </section>
+
+    <hr>
+
+    <section>
+        <form action="/bananas">
+
+            <!--  -->
+            <label for="Teddy">Text Box</label>
+            <input type="text" name="text box" id="teddy" placeholder="username" required>
+            <!-- this section we did a required field for a textbox with a placeholder of username -->
+
+            <label for="password"></label>
+            <input type="text" name="pword" id="password" minlenght="5" maxlenght="10" placeholder="password" required>
+            <!-- thus input requires password with min if 5 and max 10 characters and placeholder of password -->
+
+            <p>
+                <input type="email" placeholder="email" required>
+                <!-- required email input (can not go without filling out an email) -->
 
 
             </p>
 
-
+            <button>Validation Button</button>
+            <!-- Button to validate this form -->
         </form>
-        <!-- in this section I made a check box using the action and giving it wheather or not i agree -->
-        <!-- the label section gives it a label for what the check box is for -->
     </section>
-
-
 
 </body>
 </html>
