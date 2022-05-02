@@ -2,6 +2,7 @@
     color:pink;
     background-color:green;
 } */
+/* to change the whole background color "*" for selecting all */
 
 
 
@@ -9,23 +10,34 @@
 body{
     background-color:grey;
 }
-/*  */
+/* this changes the body background to grey */
 
 button {
     font-size:30px;
 }
-/*  */
+/*  this changes the button font to 30px*/
 h1, h2 {
     color:blue;
 }
-/* multiple selectors */
+/* ","multiple selectors to change collors for all the headers*/
 
 #signup {
     background-color:pink;
     color:blue;
 }
-/*  */
+/* to change the  */
 
 .tag {
     color:black;
+}
+/*  */
+
+.post a{
+    color:rgb(132, 255, 0);
+
+}
+/*  */
+
+footer > a {
+    color:orange;
 }
