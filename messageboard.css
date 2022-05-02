@@ -1,0 +1,31 @@
+/* *{
+    color:pink;
+    background-color:green;
+} */
+
+
+
+
+body{
+    background-color:grey;
+}
+/*  */
+
+button {
+    font-size:30px;
+}
+/*  */
+h1, h2 {
+    color:blue;
+}
+/* multiple selectors */
+
+#signup {
+    background-color:pink;
+    color:blue;
+}
+/*  */
+
+.tag {
+    color:black;
+}
