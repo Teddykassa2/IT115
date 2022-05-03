@@ -25,19 +25,49 @@ h1, h2 {
     background-color:pink;
     color:blue;
 }
-/* to change the  */
+/* change the id signup color */
 
 .tag {
     color:black;
 }
-/*  */
+/* change the class tag color */
 
 .post a{
     color:rgb(132, 255, 0);
 
 }
-/*  */
+/* changes the color for all the anchor tags under the post class  */
 
 footer > a {
     color:orange;
 }
+/* to change the color of the anchor tag */
+
+a[href*="google"]{
+    color:rgb(33, 19, 2);
+}
+/* attribute selector and change color for the anchor tag under thw word google */
+
+button:hover {
+    background-color:red;
+    color:aquamarine;
+}
+/* pseudo class for color change when hovering over the button */
+
+.post button:active{
+    background-color:green;
+}
+
+/* pseudo class to change the background color of the button when clicked */
+
+h2::first-letter {
+    font-size:60px;
+}
+
+/* pseudo element to change the h2 font size */
+
+p::first-line {
+    color:green;
+}
+
+/* pseudo element to change the first line of the <p */
