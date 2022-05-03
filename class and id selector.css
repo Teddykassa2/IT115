@@ -1,0 +1,38 @@
+.c {
+    color:crimson;
+}
+/* class c change color ro crimson */
+
+.g {
+    color:green;
+}
+/* class g change color to green */
+
+.y {
+    color:yellowgreen;
+}
+/* class y change color to yellow */
+
+.r {
+    color:red;
+}
+/* class r change color ro red */
+
+.o {
+    color:orange;
+
+}
+/* class o changed color to orange */
+
+
+#yes {
+    background-color:green;
+    color:blue;
+}
+/* id yes changed background color to green and letter colors to blue */
+
+#no {
+    background-color:red;
+    color:black;
+}
+/* id no changed background letter to red and letter colors to black */
