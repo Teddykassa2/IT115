@@ -27,6 +27,6 @@ color:brown;
 /* change the color of the id tag food to red */
 
 body{
-    background-color:beige;
+    background-image: linear-gradient(to right, beige, black ) ;
 }
 /* change the background color to grey */
