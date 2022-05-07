@@ -1,0 +1,32 @@
+h1 a{
+   font-size:30px; 
+   color:rgb(89, 89, 110);
+}
+
+/* change the color of the anchor tag of the headers to grey  */
+
+#school{
+color:brown;
+
+}
+
+/* change the color of the id tag school to brown */
+
+#college{
+    Color:blue;
+}
+
+/* change the color of the id tag college to blue */
+
+#food{
+    color:red;
+    text-shadow:7px;
+
+}
+
+/* change the color of the id tag food to red */
+
+body{
+    background-color:beige;
+}
+/* change the background color to grey */

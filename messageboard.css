@@ -46,7 +46,7 @@ footer > a {
 a[href*="google"]{
     color:rgb(33, 19, 2);
 }
-/* attribute selector and change color for the anchor tag under thw word google */
+/* attribute selector and change color for the anchor tag under the word google */
 
 button:hover {
     background-color:red;
