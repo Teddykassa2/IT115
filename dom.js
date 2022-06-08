@@ -141,22 +141,48 @@
 
 // query selector
 
-var header = document.querySelector('#main-header');
+// var header = document.querySelector('#main-header');
 
-header.style.borderBottom = 'solid 4px hotpink';
+// header.style.borderBottom = 'solid 4px hotpink';
 // change the border to hop pink and 4px using query selector
-var input = document.querySelector('input');
-input.value = "change the input box text";
+// var input = document.querySelector('input');
+// input.value = "change the input box text";
 // change the text with query selector 
 
-var submit = document.querySelector("input[type='submit']");
-submit.value = "Send"
+// var submit = document.querySelector("input[type='submit']");
+// submit.value = "Send"
 // used document selector with submit var to change the submit button to send
 
-var item = document.querySelector('.list-group-item');
-item.style.color = 'red';
+// var item = document.querySelector('.list-group-item');
+// item.style.color = 'red';
 // used document selector with list group items class to change the color for the first to red
 
-var lastItem = document.querySelector('.list-group-item:last-child');
-lastItem.style.color = 'coral';
+// var lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'coral';
 // used document select with list group items class to change the last child or last item color to coral
+
+// //////query selector all
+// var titles = document.querySelectorAll('.tittle');
+
+// console.log(titles);
+
+// titles[0].textcontent = 'Hello Teddy';
+
+// 
+
+var titles = document.querySelectorAll('.title');
+console.log(titles);
+titles[0].textContent = 'Hello Teddy'; 
+
+var odd = document.querySelectorAll('li:nth-child(odd)');
+var even = document.querySelectorAll('li:nth-child(even)');
+
+// 
+
+for (var i = 0; i < odd.length; i++) {
+    odd[i].style.backgroundColor = 'grey'
+    even[i].style.backgroundColor = 'green'
+    even[i].style.color = 'whitesmoke'
+
+
+}
