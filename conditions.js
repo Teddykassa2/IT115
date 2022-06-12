@@ -18,7 +18,7 @@ console.log(randomNumber);
 // to show RandomNumber is greater than 0.5 if the random number is greater or equal to 0.5
 
 // const dayOfWeek = 'Saturday';
-
+// const to declair the variable 
 // if (dayOfWeek === 'Monday') {
 
 //     console.log('This is Monday');
@@ -30,7 +30,7 @@ console.log(randomNumber);
 // } else if (dayOfWeek === 'Saturday') {
 
 //     console.log("Hooray, today is Saturday");
-
+// Depenping on the day the console will have different outcomes using the else if function
 // }
 /*
 
@@ -63,11 +63,13 @@ switch (expr) {
     default:
         console.log("Sorry, we are out of your asked item.")
 }
+// after using the const to declair the variable we use the case function to show the according message
+    in the console depending on the variables are met
 
 const password = promp("Please Enter A New Password");
 
 if (password.length >= 6) {
-    // Nested condition
+    
     if (password.indexOf(' ') === -1) {
         console.log("Valid Password")
     }else {
@@ -79,7 +81,7 @@ if (password.length >= 6) {
     console.log("Password is too short")
 
 }
-
+// Nested condition to show that the password is to short or it is valid depending on the inpute
 
 function singSong() {
     console.log("DO");
@@ -87,11 +89,12 @@ function singSong() {
     console.log("MI");
     
 }
+// function sing to show the keys in the console
 
-
 singSong()
 singSong()
 singSong()
+// sing song make the fuction repeat by how many times we right the code over and over
 */
 function greet(firstName) {
     // 
@@ -99,10 +102,11 @@ function greet(firstName) {
 
 }
 greet('Teddy')
-
+// greet function will have the console show the name we declared in this case Teddy
 function greet1(firstName,lastName){
 
     console.log(`Hey There, ${firstName} ${lastName[0]}.`)
 
 }
  greet1('Teddy','Kassa')
+//  greet function will have the console shpw the name we declared in this case first and last name Teddy Kassa with a comma in between the first and last name to break it 
